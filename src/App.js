@@ -10,7 +10,7 @@ import { Route } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-        <Header/>
+        {/* <Header/> */}
         <Route path="/" exact component={Login}/>
         <Route path="/charts" component={ChartWrapper}/>
     </div>
